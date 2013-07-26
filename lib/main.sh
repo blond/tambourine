@@ -5,7 +5,7 @@ if [ -z "$TPWD" ]; then
 fi
 
 main::_version() {
-    echo "0.0.1"
+    echo "0.0.2"
 }
 
 main::_build() {
