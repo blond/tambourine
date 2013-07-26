@@ -1,6 +1,8 @@
 #!/bin/bash
 
-TPWD=`pwd`
+if [ -z "$TPWD" ]; then
+    TPWD=`pwd`
+fi
 
 main::_version() {
     echo "0.0.1"
